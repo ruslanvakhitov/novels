@@ -80,6 +80,14 @@
             font-size: 1.6em; /* Larger text */
             font-weight: 800; /* Bolder text */
         }
+        .bold-text {
+            font-weight: 800;
+            font-size: 1.6em;
+        }
+        .regular-text {
+            font-weight: 400;
+            font-size: 1em;
+        }
         .image-slide-indicator {
             position: absolute;
             top: 10px;
@@ -209,7 +217,7 @@
                         } else if (section.type === 'image') {
                             const imageText = document.createElement('div');
                             imageText.className = 'image-slide-text';
-                            imageText.innerHTML = `<p>${slide.text}</p>`;
+                            imageText.innerHTML = slide.text; // Use the text directly from JSON
                             slideElement.appendChild(imageText);
 
                             // Add slide indicator for image type slides
