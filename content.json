@@ -57,7 +57,7 @@
                         "type": "image",
                         "slides": [
                             {
-                                "text": "Fyia walked out under the portcullis, then across the bridge over the castle's moat, her wolves flanking her. She'd removed her hat, and her hair flowed freely down her back, Perdes' crown perched atop her head.",
+                                "text": "<p><span>Fyia walked out under the portcullis, then across the bridge over the castle's moat, her wolves flanking her.</span></p><span class='regular-text'> She'd removed her hat, and her hair flowed freely down her back, Perdes' crown perched atop her head.</span>",
                                 "image": "src/9.png"
                             }
                         ]
